@@ -7,6 +7,3 @@ RUN apt-get update && apt-get install -y \
     wget \
     sudo \
     git
-
-RUN useradd -ms /bin/bash mpichuser
-USER mpichuser
