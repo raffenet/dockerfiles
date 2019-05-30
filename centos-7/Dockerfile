@@ -5,6 +5,7 @@ RUN yum install -y \
     tar \
     gzip \
     perl \
+    perl-Data-Dumper \
     which \
     patch \
     m4 \
