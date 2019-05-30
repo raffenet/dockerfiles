@@ -8,5 +8,5 @@ RUN apt-get update && apt-get install -y \
     sudo \
     git
 
-RUN useradd -ms /bin/bash raffenet
-USER raffenet
+RUN useradd -ms /bin/bash mpichuser
+USER mpichuser
