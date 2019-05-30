@@ -4,6 +4,7 @@ RUN yum install -y \
     wget \
     tar \
     gzip \
+    perl \
     which \
     patch \
     m4 \
