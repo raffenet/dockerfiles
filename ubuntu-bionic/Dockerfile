@@ -6,4 +6,7 @@ RUN apt-get update && apt-get install -y \
     emacs-nox \
     wget \
     sudo \
-    git
+    git \
+    libtool \
+    automake \
+    autoconf
