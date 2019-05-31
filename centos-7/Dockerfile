@@ -6,6 +6,7 @@ RUN yum install -y \
     gzip \
     perl \
     perl-Data-Dumper \
+    perl-Thread-Queue \
     help2man \
     which \
     patch \
