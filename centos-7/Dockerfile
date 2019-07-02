@@ -1,6 +1,8 @@
 FROM centos:7
 MAINTAINER Ken Raffenetti raffenet@mcs.anl.gov
-RUN yum install -y \
+
+RUN yum -y update && \
+    yum install -y \
     wget \
     tar \
     gzip \
