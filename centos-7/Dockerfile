@@ -1,8 +1,8 @@
 FROM centos:7
-MAINTAINER Ken Raffenetti raffenet@mcs.anl.gov
+LABEL maintainer="Ken Raffenetti raffenet@mcs.anl.gov"
 
-RUN yum -y update && \
-    yum install -y \
+RUN yum update -y \
+    && yum install -y \
     wget \
     tar \
     gzip \
@@ -16,7 +16,8 @@ RUN yum -y update && \
     gcc \
     gcc-c++ \
     gcc-gfortran \
-    make
+    make \
+    && yum clean all
 
 RUN cd /tmp && wget http://mirror.team-cymru.com/gnu/autoconf/autoconf-2.69.tar.gz && tar xfz autoconf-2.69.tar.gz && cd autoconf-2.69 && ./configure && make install
 
