@@ -1,4 +1,4 @@
-FROM centos:7
+FROM i386/centos:7
 LABEL maintainer="Ken Raffenetti raffenet@mcs.anl.gov"
 
 RUN yum update -y \
