@@ -18,6 +18,7 @@ RUN yum update -y \
     gcc-gfortran \
     git \
     make \
+    zsh \
     && yum clean all
 
 RUN cd /tmp && wget http://mirror.team-cymru.com/gnu/autoconf/autoconf-2.69.tar.gz && tar xfz autoconf-2.69.tar.gz && cd autoconf-2.69 && ./configure && make install
