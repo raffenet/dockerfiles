@@ -11,6 +11,7 @@ RUN yum update -y \
     perl-Thread-Queue \
     help2man \
     which \
+    file \
     patch \
     m4 \
     gcc \
