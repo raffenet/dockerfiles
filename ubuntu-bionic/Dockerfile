@@ -9,4 +9,7 @@ RUN apt-get update && apt-get install -y \
     git \
     libtool \
     automake \
-    autoconf
+    autoconf \
+    gdb \
+    perf \
+    strace
