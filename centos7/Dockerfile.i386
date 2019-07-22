@@ -17,6 +17,7 @@ RUN yum update -y \
     gcc \
     gcc-c++ \
     gcc-gfortran \
+    clang \
     git \
     make \
     zsh \
