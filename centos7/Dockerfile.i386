@@ -21,7 +21,7 @@ RUN yum update -y \
     git \
     make \
     zsh \
-    numactl-libs \
+    numactl-devel \
     gdb \
     perf \
     strace \
