@@ -27,6 +27,7 @@ RUN yum update -y \
     strace \
     emacs-nox \
     python3 \
+    python3-devel \
     valgrind \
     && yum clean all
 
