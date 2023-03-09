@@ -47,4 +47,4 @@ RUN cd /tmp && rm -rf libtool-*
 RUN cd /tmp && wget http://www.mcs.anl.gov/~raffenet/build_gcc.sh && chmod +x build_gcc.sh && ./build_gcc.sh 9
 RUN cd /tmp && rm -rf gcc-*
 
-RUN python3.6 -m pip install cython
+RUN python3.6 -m pip install --upgrade cython
