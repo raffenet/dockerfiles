@@ -48,3 +48,4 @@ RUN cd /tmp && wget http://www.mcs.anl.gov/~raffenet/build_gcc.sh && chmod +x bu
 RUN cd /tmp && rm -rf gcc-*
 
 RUN python3.6 -m pip install --upgrade cython
+RUN python3.6 -m pip install --upgrade setuptools
