@@ -49,3 +49,4 @@ RUN cd /tmp && rm -rf gcc-*
 
 RUN python3.6 -m pip install --upgrade cython
 RUN python3.6 -m pip install --upgrade setuptools
+RUN python3.6 -m pip install --upgrade wheel
